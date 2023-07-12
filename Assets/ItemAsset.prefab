@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4086170781629647162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4086170781629647163}
+  - component: {fileID: 4086170781629647160}
+  m_Layer: 0
+  m_Name: ItemAsset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4086170781629647163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4086170781629647162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 239.28018, y: 298.47546, z: 14.493439}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4086170781629647160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4086170781629647162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e34923d0425f340931cf8f37f114f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pfItemWorld: {fileID: 6266023277607983370, guid: d159fa499b37fed4592055446be7989a,
+    type: 3}
+  CrowbarSp: {fileID: 21300000, guid: e5f99810e956f92409a5a6f1c232df59, type: 3}
+  FlashLightSp: {fileID: 21300000, guid: 34d0c2d28b06c684f86acf8fcf11af54, type: 3}
+  BoxSp: {fileID: 21300000, guid: 73b2ecc1184bbe54388f0adc7a6a323c, type: 3}
+  Key1Sp: {fileID: 21300000, guid: 21c97a42be0bae743a09b6817917b23b, type: 3}
+  Key2Sp: {fileID: 21300000, guid: 35229b2fbb9704f4a8e782ddbbc5499b, type: 3}
+  Tape1Sp: {fileID: 21300000, guid: 091bf9c550b5c724d81af96b94b9ddd8, type: 3}
+  Tape2Sp: {fileID: 21300000, guid: 85dd0d73ec6bdf54f8a3c37cac818122, type: 3}
+  Tape3Sp: {fileID: 21300000, guid: 099e4f5ba586e8e419c712717fc42c3a, type: 3}
+  Paper1Sp: {fileID: 21300000, guid: 854dfcad78ce3e14fb15e856b22c22dd, type: 3}
+  Paper2Sp: {fileID: 21300000, guid: 2b5757a7548498947b8b210e1d5fc509, type: 3}
+  Paper3Sp: {fileID: 21300000, guid: f99614dd3c7f7cd48979f623b0352857, type: 3}
+  PistolSp: {fileID: 21300000, guid: 03b180dda04d54144841eb04438fa17f, type: 3}
+  CrowbarMp: {fileID: -2432090755550338912, guid: 340415a990110b84fae403cc68e336f3,
+    type: 3}
+  FlashLightMp: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  BoxMp: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  Key1Mp: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  Key2Mp: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  Tape1Mp: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  Tape2Mp: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  Tape3Mp: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  Paper1Mp: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  Paper2Mp: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  Paper3Mp: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  PistolMp: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
